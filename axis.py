@@ -1,0 +1,10 @@
+import numpy as np
+m = np.array([[0,1,2],[4,2,3]])
+m2 = np.array([[8,8,8],[8,8,8]])
+print(m)
+print("")
+print(m2)
+print("")
+print(np.sum(m, axis=0))
+print("")
+print(np.concatenate([m,m2], axis=1))

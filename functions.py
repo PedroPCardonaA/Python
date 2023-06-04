@@ -1,0 +1,13 @@
+import numpy as np
+m = np.arange(20).reshape(4,5)
+#print(m.size)
+#print(m)
+zero_matrix = np.zeros((3,4))
+#print(zero_matrix)
+#print(zero_matrix.shape)
+linspace_matrix = np.linspace(99,88,25)
+#print(linspace_matrix)
+#print(linspace_matrix.shape)
+m3d = np.arange(27).reshape(3,3,3)
+print(m3d)
+print(m3d.shape)

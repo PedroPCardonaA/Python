@@ -1,0 +1,13 @@
+import numpy as np
+one_digit = np.random.randint(10)
+#print(m)
+one_dimension_array = np.random.randint(10, size=(5))
+print(one_dimension_array)
+two_dimension_array = np.random.randint(10, size=(5, 5))
+print(two_dimension_array)
+one_double_array = np.random.rand(2, 2)
+print(one_double_array)
+m = np.random.choice(['a', 'b', 'c'], p=[0.1, 0.3, 0.6])
+print(m)
+matrix_50_elements = np.random.choice([4,2,8,10], p=[0.25,0.25,0.25,0.25], size=(50))
+print(matrix_50_elements)
